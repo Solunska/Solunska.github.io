@@ -80,7 +80,7 @@ h1 {
     text-align: center;
 }
 
-#mainContainer {
+#main-container {
     width: 100%;
     margin: 0;
     display: flex;
@@ -112,7 +112,7 @@ h1 {
     border-bottom-right-radius: 20px;
 }
 
-#container #coverPhoto {
+#cover-photo {
     width: 1350px;
     height: 629px;
     background-image: url('https://i.pinimg.com/originals/5b/bc/11/5bbc11d7852485126c992135005efd9d.png');
@@ -122,7 +122,7 @@ h1 {
     background-position: center;
 }
 
-#container #contactInfo {
+#contact-info {
     margin: 10px;
     background-color: rgb(156, 96, 91);
     width: 1350px;
@@ -136,11 +136,11 @@ h1 {
     color: white;
 }
 
-#container #contactInfo #heading {
+#heading {
     font-size: 50px;
 }
 
-#mainContainer #container2 #introduction {
+#introduction {
     font-size: 60px;
     color: white;
     margin: 20px;
@@ -151,18 +151,18 @@ h1 {
     padding-right: 60px;
 }
 
-#mainContainer #container2 #myPhoto {
+#my-photo {
     /* background-image: url('https://i.pinimg.com/originals/cc/b0/45/ccb04518ec0f00015b14db0270eefddf.png'); */
     border-radius: 50%;
     height: 450px;
     width: 450px;
-    background-image: url('profile.JPG');
+    background-image: url('photos/profile.JPG');
     background-size: cover;
     background-position: center;
     border: 20px solid rgba(156, 96, 91, 0.754);
 }
 
-#mainContainer #container2 #subIntroduction {
+#sub-introduction {
     font-size: 20px;
     color: white;
     margin: 20px;
@@ -173,4 +173,51 @@ h1 {
     font-weight: light;
     padding-right: 60px;
     text-align: right;
+}
+
+
+
+#project-cover {
+    width: 2665px;
+    height: 629px;
+    background-image: url('https://i.pinimg.com/originals/5b/bc/11/5bbc11d7852485126c992135005efd9d.png');
+    background-size: cover;
+    border-radius: 20px;
+    margin: 11px 30px 10px 16px;
+    background-position: center;
+
+}
+
+#side-text {
+    font-size: 22px;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: light;
+    text-align: left;
+    padding: 110px 50px 0 50px;
+    width: 728px;
+}
+
+#project-description {
+    font-size: 18px;
+}
+
+#view-project-button {
+    padding: 50px 50px 0 419px;
+
+}
+
+#view-project-button button {
+    height: 70px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bold;
 }
