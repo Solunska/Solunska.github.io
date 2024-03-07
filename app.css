@@ -1,0 +1,176 @@
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.361);
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown {
+    display: inline-block;
+    position: absolute;
+}
+
+.dropdown-options {
+    position: absolute;
+    overflow: auto;
+    margin-left: 30px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.dropdown-options div {
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.361);
+    width: 150px;
+    height: 50px;
+}
+
+.dropdown-options div a {
+    color: white;
+    text-decoration: none;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.bar {
+    width: 40px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 4px 0;
+}
+
+.dropdown-options {
+    display: none;
+    /* Other styles remain the same */
+}
+
+.dropdown-options.show {
+    display: block;
+}
+
+button div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    text-align: center;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(77, 95, 115);
+}
+
+h1 {
+    text-align: center;
+}
+
+#mainContainer {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#container2 {
+    background-color: rgb(77, 95, 115);
+    width: 100%;
+    height: 909px;
+    margin: 0;
+    display: flex;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 0 10px;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#container #coverPhoto {
+    width: 1350px;
+    height: 629px;
+    background-image: url('https://i.pinimg.com/originals/5b/bc/11/5bbc11d7852485126c992135005efd9d.png');
+    background-size: cover;
+    border-radius: 20px 150px 20px 20px;
+    margin: 10px;
+    background-position: center;
+}
+
+#container #contactInfo {
+    margin: 10px;
+    background-color: rgb(156, 96, 91);
+    width: 1350px;
+    height: 260px;
+    border-radius: 20px 20px 150px 20px;
+    padding: 30px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+#container #contactInfo #heading {
+    font-size: 50px;
+}
+
+#mainContainer #container2 #introduction {
+    font-size: 60px;
+    color: white;
+    margin: 20px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    padding-right: 60px;
+}
+
+#mainContainer #container2 #myPhoto {
+    /* background-image: url('https://i.pinimg.com/originals/cc/b0/45/ccb04518ec0f00015b14db0270eefddf.png'); */
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    background-image: url('profile.JPG');
+    background-size: cover;
+    background-position: center;
+    border: 20px solid rgba(156, 96, 91, 0.754);
+}
+
+#mainContainer #container2 #subIntroduction {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: light;
+    padding-right: 60px;
+    text-align: right;
+}
