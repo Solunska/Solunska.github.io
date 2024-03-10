@@ -221,12 +221,12 @@ h1 {
     margin: 11px 30px 10px 16px;
     background-position: center;
     transition: background-image 0.3s ease, transform 0.3s ease;
-    background-image: url('photos/cover-photo-bw.png');
+    background-image: url('photos/conversa-cover-photo-bw.png');
     border: 10px solid #ffffff6a;
 }
 
 .project-cover-second:hover {
-    background-image: url('photos/cover-photo-red.png');
+    background-image: url('photos/conversa-cover-photo.png');
     transform: scale(1.05);
     margin-left: 20px;
 }
