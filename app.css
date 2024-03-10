@@ -3,9 +3,9 @@
     flex-direction: column;
     cursor: pointer;
     padding: 20px;
-    margin-left: 30px;
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.361);
+    margin-left: 66px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.628);
     border-radius: 20px;
     width: 150px;
     height: 100px;
@@ -22,7 +22,7 @@
 .dropdown-options {
     position: absolute;
     overflow: auto;
-    margin-left: 30px;
+    margin-left: 66px;
     text-align: center;
     width: 150px;
     height: 150px;
@@ -31,24 +31,24 @@
 }
 
 .dropdown-options div {
-    padding: 10px 10px;
-    background-color: rgba(255, 255, 255, 0.361);
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.724);
     width: 150px;
     height: 50px;
 }
 
 .dropdown-options div a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-weight: 400;
 }
 
 .bar {
     width: 40px;
     height: 4px;
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 4px 0;
 }
 
@@ -70,24 +70,27 @@ button div {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     margin: 0;
     height: 100%;
-    background-color: rgb(77, 95, 115);
+    background-color: rgb(255, 255, 255);
+    font-family: "Nunito", sans-serif;
 }
 
 h1 {
     text-align: center;
 }
 
-#main-container {
+.main-container {
     width: 100%;
     margin: 0;
     display: flex;
     flex-direction: row;
+    padding: 10px;
 }
 
-#container {
+
+.container {
     width: 100%;
     margin: 0;
     display: flex;
@@ -95,45 +98,51 @@ h1 {
 
 }
 
-#container2 {
-    background-color: rgb(77, 95, 115);
+.container2 {
+    /* background-color: rgb(77, 95, 115,0.388); */
+    /* background-color: #fbd7d1; */
+    background-color: #000000;
     width: 100%;
     height: 909px;
     margin: 0;
     display: flex;
     margin: 10px;
-    border-radius: 20px;
+    margin-left: 65px;
+    border-radius: 150px 20px 20px 150px;
     padding: 0 10px;
     padding-top: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border: 10px solid #ffffff6a;
 }
+
 
 #cover-photo {
     width: 1350px;
     height: 629px;
-    background-image: url('https://i.pinimg.com/originals/5b/bc/11/5bbc11d7852485126c992135005efd9d.png');
+    background-image: url('photos/cover-photo-5.jpg');
     background-size: cover;
     border-radius: 20px 150px 20px 20px;
     margin: 10px;
     background-position: center;
+    border: 10px solid #ffffff6a;
 }
 
 #contact-info {
     margin: 10px;
-    background-color: rgb(156, 96, 91);
+    /* background-color: #fbd7d1; */
+    background-color: #000000;
     width: 1350px;
     height: 260px;
     border-radius: 20px 20px 150px 20px;
     padding: 30px;
-    font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 20px;
-    color: white;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border: 10px solid #ffffff6a;
 }
 
 #heading {
@@ -142,10 +151,9 @@ h1 {
 
 #introduction {
     font-size: 60px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 20px;
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
     text-align: right;
     padding-right: 60px;
@@ -159,25 +167,24 @@ h1 {
     background-image: url('photos/profile.JPG');
     background-size: cover;
     background-position: center;
-    border: 20px solid rgba(156, 96, 91, 0.754);
+    border: 5px solid #ffffff79;
 }
 
 #sub-introduction {
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 20px;
-    font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    font-weight: light;
+    font-weight: 400;
     padding-right: 60px;
     text-align: right;
 }
 
 
 
-#project-cover {
+.project-cover {
     width: 2665px;
     height: 629px;
     background-image: url('https://i.pinimg.com/originals/5b/bc/11/5bbc11d7852485126c992135005efd9d.png');
@@ -185,39 +192,226 @@ h1 {
     border-radius: 20px;
     margin: 11px 30px 10px 16px;
     background-position: center;
-
+    transition: background-image 0.3s ease, transform 0.3s ease;
 }
 
-#side-text {
+.project-cover-first {
+    width: 2665px;
+    height: 629px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 11px 30px 10px 16px;
+    background-position: center;
+    transition: background-image 0.3s ease, transform 0.3s ease;
+    background-image: url('photos/cover-photo-bw.png');
+    border: 10px solid #ffffff6a;
+}
+
+.project-cover-first:hover {
+    background-image: url('photos/cover-photo-red.png');
+    transform: scale(1.05);
+    margin-left: 20px;
+}
+
+.project-cover-second {
+    width: 2665px;
+    height: 629px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 11px 30px 10px 16px;
+    background-position: center;
+    transition: background-image 0.3s ease, transform 0.3s ease;
+    background-image: url('photos/cover-photo-bw.png');
+    border: 10px solid #ffffff6a;
+}
+
+.project-cover-second:hover {
+    background-image: url('photos/cover-photo-red.png');
+    transform: scale(1.05);
+    margin-left: 20px;
+}
+
+.project-cover-third {
+    width: 2665px;
+    height: 629px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 11px 30px 10px 16px;
+    background-position: center;
+    transition: background-image 0.3s ease, transform 0.3s ease;
+    background-image: url('photos/cover-photo-bw.png');
+    border: 10px solid #ffffff6a;
+}
+
+.project-cover-third:hover {
+    background-image: url('photos/cover-photo-red.png');
+    transform: scale(1.05);
+    margin-left: 20px;
+}
+
+.side-text {
     font-size: 22px;
-    color: white;
-    font-family: "Comfortaa", sans-serif;
+    color: rgb(255, 255, 255);
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    font-weight: light;
+    font-weight: 400;
     text-align: left;
-    padding: 110px 50px 0 50px;
+    padding: 152px 50px 0 50px;
     width: 728px;
 }
 
-#project-description {
+.project-description {
     font-size: 18px;
 }
 
-#view-project-button {
+.view-project-button {
     padding: 50px 50px 0 419px;
+
 
 }
 
-#view-project-button button {
+.view-project-button button {
     height: 70px;
     width: 300px;
     border: none;
     border-radius: 30px;
-    font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
     font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.name-of-project {
+    margin-top: 60px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#my-carousel {
+    width: 1264px;
+    height: 816px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 471px;
+    background-color: rgb(36, 36, 36);
+}
+
+.c-item {
+    height: 801px;
+    width: 801px;
+    overflow: hidden; 
+}
+
+.c-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cover-photo-project {
+    width: 1424px;
+    height: 929px;
+    background-image: url("photos/project-cover-1.png");
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.cook-app-description {
+    width: 1495px;
+    height: 462px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    font-size: large;
+    padding: 0 149px;
+    font-size: 20px;
+}
+
+.cook-app-personas {
+    width: 1495px;
+    height: 1258px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    font-size: large;
+    padding: 0 100px;
+    font-size: 20px;
+}
+
+.cook-app-site-map {
+    width: 1256px;
+    height: 1072px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    font-size: large;
+    /* padding: 0 100px; */
+    font-size: 20px;
+
+}
+
+.points {
+    text-align: center;
+    padding-left: 50px;
+    margin: 46px 0;
+}
+
+.carousel-control-prev{
+    padding-right: 140px;
+}
+.carousel-control-next{
+    padding-left: 140px;
+}
+
+.persona-1 {
+    height: 1139px;
+    width: 673px;
+    background-image: url("photos/persona-1.png");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+.persona-2 {
+    height: 1139px;
+    width: 673px;
+    background-image: url("photos/persona-2.png");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+.persona-container {
+    width: 100%;
+    margin: auto;
+    flex-direction: row;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.site-map {
+    height: 914px;
+    width: 1506px;
+    background-image: url("photos/site-map.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: #000000;
+    padding: 5px;
 }
