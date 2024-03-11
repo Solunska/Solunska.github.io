@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%;">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -15,6 +15,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <script>
         function toggleDropdown() {
             var dropdownOptions = document.querySelector('.dropdown-options');
@@ -23,7 +28,7 @@
     </script>
 </head>
 
-<body>
+<body id="project-body" style="background-color: black; color: white;">
     <div class="dropdown">
         <div class="hamburger-menu" onclick="toggleDropdown()">
             <div class="bar"></div>
@@ -36,36 +41,32 @@
             <!-- <div><a href="resume.html">Resume</a></div> -->
         </div>
     </div>
-    <section class="main-container">
-        <section class="container">
-            <div id="cover-photo">
+    <section class="project-container">
+        <div id="cover-photo-project" style="background-image: url('photos/project-static-pages-cover-photo.png');">
+        </div>
+        <div id="neon-chat-container">
+            <div class="cook-app-description" style="height: 203px;">
+                <h1 class="points">Landing Pages</h1>
+                <h2>
+                    Project Overview
+                </h2>
+                <div>
+                    Explore two meticulously crafted static pages designed to deliver a seamless browsing experience.
+                    With an emphasis on simplicity and clarity, these pages feature intuitive navigation and visually
+                    appealing design elements.
+                </div>
+                <br>
+
             </div>
-            <div id="contact-info">
-                <div id="contact-info-container">
-                    <div>
-                        <p id="heading">My Contact Information:</p>
-                        <p>Email: a_solunska@outlook.com</p>
-                        <p>Phone Number: 070 232 051</p>
-                    </div>
-                    <div class="view-project-button" style="padding-left: 700px; padding-top: 0; position: absolute">
-                        <a href="https://github.com/Solunska/Solunska.github.io" target="_blank">
-                            <button id="button-to-code">Code To My Web Portfolio</button>
-                        </a>
-                    </div>
+            <div class="cook-app-site-map">
+                <div class="static-1">
+    
+                </div>
+                <div class="static-2">
+    
                 </div>
             </div>
-        </section>
-        <section class="container2">
-            <div id="introduction">
-                <p>Hi, I'm Aneta Solunska</p>
-            </div>
-            <div id="sub-introduction">
-                <p>A 22 year old student at Faculty of Computer Science & Engineering.</p>
-                <p>Head to my projects to see my work.</p>
-            </div>
-            <div id="my-photo">
-            </div>
-        </section>
+        </div>
     </section>
 </body>
 
