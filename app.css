@@ -708,6 +708,7 @@ h1 {
     #introduction {
         padding-right: 0;
         width: 40%;
+        font-size: 30px;
     }
 
     #sub-introduction {
@@ -741,18 +742,21 @@ h1 {
     #introduction {
         width: 100%;
         font-size: 30px;
+        padding-right: 10px;
 
     }
 
     #sub-introduction {
         margin: 0;
-        width: 100%;
-        padding-right: 0;
+        margin-left: 202px;
+        padding-left: 121px;
+        width: 70%;
+        padding-right:21px;
     }
 
     #my-photo {
-        width: 183px;
-        height: 316px;
+        width: 156px;
+        height: 156px;
         margin-right: -24px;
         margin-bottom: 30px
     }
@@ -766,4 +770,24 @@ h1 {
         font-size: 15px;
     }
 
+    .view-code-button{
+        padding-left: 338px;
+    }
+
 }
+
+
+
+@media (max-width:798px) {
+    
+    #introduction {
+        font-size: 20px;
+
+    }
+
+    .hamburger-menu{
+        width: 80px;
+        height: 80px;
+    }
+}
+
