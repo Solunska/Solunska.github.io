@@ -647,7 +647,7 @@ h1 {
     }
 }
 
-@media (max-width:995px) {
+@media (max-width:971px) {
 
     #home-page-main-container.main-container {
         flex-direction: column-reverse;
@@ -668,7 +668,7 @@ h1 {
         height: 40%;
         margin: 10px;
         border-radius: 20px 20px 20px 20px;
-        flex-direction: row;
+        flex-direction: column;
         max-width: 931px;
         margin-left: 13px;
         padding: 10px;
@@ -699,20 +699,30 @@ h1 {
 
     #cover-photo {
         border-radius: 20px 20px 20px 20px;
+        height: 40%;
     }
 
     #contact-info {
         border-radius: 20px 20px 20px 20px;
+        height: 15%;
     }
 
     #introduction {
         padding-right: 0;
-        width: 40%;
-        font-size: 30px;
+        width: 100%;
+        font-size: 40px;
+        padding-right: 11px;
     }
 
     #sub-introduction {
         padding-right: 11px;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #my-photo {
+        width: 408px;
+        height: 427px;
     }
 
 }
@@ -733,6 +743,7 @@ h1 {
 
 @media (max-width:767px) {
 
+    /* 
     #container1-id.container2 {
 
         flex-direction: column;
@@ -770,7 +781,8 @@ h1 {
         font-size: 15px;
     }
 
-    .view-code-button{
+     */
+    .view-code-button {
         padding-left: 338px;
     }
 
@@ -779,15 +791,45 @@ h1 {
 
 
 @media (max-width:798px) {
-    
+
     #introduction {
-        font-size: 20px;
+        font-size: 30px;
 
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         width: 80px;
         height: 80px;
     }
 }
 
+@media (max-width:646px) {
+
+    #my-photo {
+        width: 287px;
+        height: 287px;
+    }
+
+    #cover-hoto-container.container {
+
+        height: 70%;
+
+    }
+
+    #container1-id.container2 {
+
+        height: 30%;
+
+    }
+
+    #button-to-code{
+        width: 124px;
+    }
+}
+
+@media (max-width:572px) {
+    #button-to-code{
+        width: 95px;
+        font-size: 10px;
+    }
+}
