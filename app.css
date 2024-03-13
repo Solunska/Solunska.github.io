@@ -369,6 +369,18 @@ h1 {
     border-radius: 50px;
 }
 
+.project-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#photo-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .cook-app-description {
     width: 1495px;
     height: 462px;
@@ -381,8 +393,10 @@ h1 {
 }
 
 .cook-app-personas {
-    width: 1495px;
-    height: 1258px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     margin: 50px auto;
@@ -392,8 +406,10 @@ h1 {
 }
 
 .cook-app-site-map {
-    width: 1256px;
-    height: 1072px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     margin: 50px auto;
@@ -453,14 +469,17 @@ h1 {
     align-items: center;
 }
 
+.user-flows-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .site-map {
-    height: 914px;
-    width: 1506px;
+    height: 975px;
     background-image: url("photos/site-map.png");
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 70%;
     background-color: #000000;
     padding: 5px;
     border: 3px solid rgba(255, 255, 255, 0.537);
@@ -531,6 +550,36 @@ h1 {
         width: 168px;
     }
 
+    #cover-photo-project {
+        width: 750px;
+        height: 524px;
+    }
+
+    .cook-app-description {
+        margin: 0;
+        font-size: 15px;
+        width: 1025px;
+    }
+
+    .points {
+        font-size: 20px;
+        margin: 9px 0;
+    }
+
+    .points2 {
+        font-size: 20px;
+        margin-bottom: -286px;
+        margin-top: -178px;
+    }
+
+    .persona-container {
+        flex-direction: column;
+        justify-content: left;
+        /* align-items: start; */
+    }
+
+
+
     .project-button.view-project-button {
         padding-left: 200px;
     }
@@ -542,6 +591,51 @@ h1 {
     .project-cover-container {
         width: 50%;
     }
+
+    /* 
+    .cook-app-site-map {
+        margin: 1130px auto;
+    } */
+
+    .site-map {
+        height: 506px;
+        width: 676px;
+    }
+
+    .my-carousel {
+        width: 676px;
+        height: 516px;
+        margin-top: 290px;
+    }
+
+    .my-carousel2 {
+        width: 676px;
+        height: 516px;
+        margin-top: 589px;
+    }
+
+    .carousel-control-prev {
+        padding-right: 4px;
+    }
+
+    .carousel-control-next {
+        padding-left: 4px;
+    }
+
+
+    .carousel-indicators {
+        margin-right: 0;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .c-img {
+        object-fit: scale-down;
+        padding-bottom: 290px;
+    }
+
 }
 
 @media (max-width:1295px) {
@@ -629,6 +723,7 @@ h1 {
     #contact-info {
         font-size: 16px;
     }
+
 }
 
 
@@ -787,50 +882,76 @@ h1 {
 }
 
 @media (max-width:767px) {
-
-    /* 
-    #container1-id.container2 {
-
-        flex-direction: column;
-
-    }
-
-    #introduction {
-        width: 100%;
-        font-size: 30px;
-        padding-right: 10px;
-
-    }
-
-    #sub-introduction {
-        margin: 0;
-        margin-left: 202px;
-        padding-left: 121px;
-        width: 70%;
-        padding-right:21px;
-    }
-
-    #my-photo {
-        width: 156px;
-        height: 156px;
-        margin-right: -24px;
-        margin-bottom: 30px
-    }
-
-
-    #phone-number {
-        font-size: 15px;
-    }
-
-    #email {
-        font-size: 15px;
-    }
-
-     */
     .view-code-button {
         padding-left: 338px;
     }
 
+    #cover-photo-project {
+        width: 427px;
+        height: 292px;
+    }
+
+    .cook-app-description {
+        font-size: 12px;
+        width: 486px;
+        padding: 0;
+    }
+
+    .persona-1 {
+        height: 791px;
+        width: 473px;
+    }
+
+    .persona-2 {
+        height: 791px;
+        width: 473px;
+    }
+
+    .site-map {
+        height: 347px;
+        width: 476px;
+    }
+
+    
+    .my-carousel {
+        width: 476px;
+        height: 475px;
+        margin-top: 251px;
+    }
+
+    .my-carousel2 {
+        width: 476px;
+        height: 475px;
+        margin-top: 589px;
+    }
+
+    .carousel-control-prev {
+        padding-right: 4px;
+    }
+
+    .carousel-control-next {
+        padding-left: 4px;
+    }
+
+
+    .carousel-indicators {
+        margin-right: 0;
+    }
+
+    .carousel-inner {
+        height: 452px;
+    }
+    .cook-app-personas{
+        margin: 0 auto;
+    }
+
+    .c-img {
+        object-fit: scale-down;
+        padding-bottom: 290px;
+    }
+    .points{
+        margin: 20px 0;
+    }
 }
 
 
@@ -884,6 +1005,86 @@ h1 {
         width: 142px;
         height: 53px;
         font-size: 15px;
+    }
+    #cover-photo-project {
+        width: 183px;
+        height: 124px;
+        border-radius: 10px;
+    }
+
+    .cook-app-description {
+        font-size: 8px;
+        width: 286px;
+        padding: 0;
+        height: 350px;
+    }
+
+    .persona-1 {
+        height: 468px;
+        width: 273px;
+    }
+
+    .persona-2 {
+        height: 468px;
+        width: 273px;
+    }
+
+    .site-map {
+        height: 204px;
+        width: 269px;
+    }
+
+    
+    .my-carousel {
+        width: 268px;
+        height: 251px;
+        margin-top: 132px;
+    }
+
+    .my-carousel2 {
+        width: 268px;
+        height: 251px;
+        margin-top: 241px;
+    }
+
+    .carousel-control-prev {
+        padding-right: 4px;
+    }
+
+    .carousel-control-next {
+        padding-left: 4px;
+    }
+
+
+    .carousel-indicators {
+        margin-right: 0;
+    }
+
+    .carousel-inner {
+        height: 252px;
+    }
+    .cook-app-personas{
+        margin: 0 auto;
+    }
+    .c-item{
+        height: 536px;
+    }
+    .c-img {
+        object-fit: scale-down;
+        padding-bottom: 290px;
+    }
+    .points{
+        font-size: 15px;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .points2{
+        font-size: 15px;
+        margin: -93px 0;
+        padding: 0;
+    }
+    .cook-app-site-map{
+        margin: 0 auto;
     }
 }
 
@@ -1052,7 +1253,8 @@ h1 {
     #contact-info {
         height: 60%;
     }
-    .dropdown-options{
+
+    .dropdown-options {
         margin-left: 50px;
     }
 }
