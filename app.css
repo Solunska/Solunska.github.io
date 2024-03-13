@@ -832,4 +832,84 @@ h1 {
         width: 95px;
         font-size: 10px;
     }
+    #contact-info-container{
+        flex-direction: column;
+    }
+
+    .view-code-button{
+        padding-left: 0;
+        padding-top: 96px;
+    }
+
+    #button-to-code{
+        width: 144px;
+        height: 34px;
+    }
+
+    #heading{
+        font-size: 20px;
+    }
+
+    #email{
+        font-size: 10px;
+    }
+    #phone-number{
+        font-size: 10px;
+    }
+
+    #cover-photo{
+        height: 20%;
+    }
+    #introduction{
+        font-size: 20px;
+    }
+    #sub-introduction{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:378px) {
+    #my-photo{
+        width: 215px;
+        height: 215px;
+    }
+
+    #container1-id.container2 {
+        height: 20%;
+    }
+
+    #cover-hoto-container.container {
+        height: 80%;
+    }
+    .hamburger-menu {
+        width: 64px;
+        height: 77px;
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 1024px), 
+       screen and (max-height: 600px) {
+        .view-code-button{
+            padding-left: 363px;
+            padding-top: 0;
+        }
+}
+
+@media screen and (max-width: 412px), 
+       screen and (max-height: 914px) {
+        #cover-hoto-container.container{
+            height:50%;
+        }
+
+        #container1-id.container2{
+            height:50%;
+        }
+        #cover-photo{
+            height:60%;
+        }
+        #contact-info{
+            height: 40%;
+        }
 }
