@@ -897,7 +897,7 @@ h1 {
         }
 }
 
-@media screen and (max-width: 412px), 
+/* @media screen and (max-width: 412px), 
        screen and (max-height: 914px) {
         #cover-hoto-container.container{
             height:50%;
@@ -912,4 +912,4 @@ h1 {
         #contact-info{
             height: 40%;
         }
-}
+} */
