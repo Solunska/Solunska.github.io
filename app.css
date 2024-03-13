@@ -491,6 +491,10 @@ h1 {
     margin: 40px 0;
 }
 
+.projects-name{
+    font-size: 50px;
+}
+
 #button-to-code {
     height: 100px;
     width: 197px;
@@ -504,7 +508,7 @@ h1 {
     background-color: rgb(255, 255, 255);
 }
 
-@media (max-width:1469px) {
+@media (max-width:1571px) {
     #introduction {
         font-size: 45px;
     }
@@ -526,6 +530,18 @@ h1 {
         height: 78px;
         width: 168px;
     }
+
+    .project-button.view-project-button {
+        padding-left: 200px;
+    }
+
+    .project-covers {
+        width: 50%;
+    }
+
+    .project-cover-container {
+        width: 50%;
+    }
 }
 
 @media (max-width:1295px) {
@@ -541,6 +557,33 @@ h1 {
     #introduction {
         font-size: 40px;
     }
+
+
+    .projects-main-container {
+        flex-direction: column-reverse;
+    }
+    .projects-main-container2 {
+        flex-direction: column;
+    }
+
+    .project-cover-container {
+        width: 100%;
+
+    }
+
+    .project-covers {
+        width: 95%;
+        margin: 11px 50px 10px 30px;
+    }
+
+    .project-button.view-project-button{
+        padding: 50px 50px 10px 50px;
+    }
+    .side-text{
+        width: 100%;
+        padding:2px 50px 0 50px;
+    }
+    
 }
 
 @media (max-width:1311px) {
@@ -616,7 +659,7 @@ h1 {
     }
 
     .side-text {
-        width: 567px;
+        width: 100%;
     }
 
     .project-description {
@@ -664,7 +707,7 @@ h1 {
     }
 
     #container1-id.container2 {
-        width: 97%;
+        width: 94%;
         height: 40%;
         margin: 10px;
         border-radius: 20px 20px 20px 20px;
@@ -822,55 +865,73 @@ h1 {
 
     }
 
-    #button-to-code{
+    #button-to-code {
         width: 124px;
+    }
+    .project-covers{
+        width: 90%;
+        height: 300px;
+    }
+ 
+    .projects-name{
+        font-size: 30px;
+    }
+
+    .view-project-button button{
+        width: 142px;
+        height: 53px;
+        font-size: 15px;
     }
 }
 
 @media (max-width:572px) {
-    #button-to-code{
+    #button-to-code {
         width: 95px;
         font-size: 10px;
     }
-    #contact-info-container{
+
+    #contact-info-container {
         flex-direction: column;
     }
 
-    .view-code-button{
+    .view-code-button {
         padding-left: 0;
         padding-top: 96px;
     }
 
-    #button-to-code{
+    #button-to-code {
         width: 144px;
         height: 34px;
     }
 
-    #heading{
+    #heading {
         font-size: 20px;
     }
 
-    #email{
-        font-size: 10px;
-    }
-    #phone-number{
+    #email {
         font-size: 10px;
     }
 
-    #cover-photo{
+    #phone-number {
+        font-size: 10px;
+    }
+
+    #cover-photo {
         height: 20%;
     }
-    #introduction{
+
+    #introduction {
         font-size: 20px;
     }
-    #sub-introduction{
+
+    #sub-introduction {
         font-size: 15px;
     }
 }
 
 
 @media (max-width:378px) {
-    #my-photo{
+    #my-photo {
         width: 215px;
         height: 215px;
     }
@@ -882,6 +943,7 @@ h1 {
     #cover-hoto-container.container {
         height: 80%;
     }
+
     .hamburger-menu {
         width: 64px;
         height: 77px;
@@ -889,27 +951,123 @@ h1 {
     }
 }
 
-@media screen and (max-width: 1024px), 
-       screen and (max-height: 600px) {
-        .view-code-button{
-            padding-left: 363px;
-            padding-top: 0;
-        }
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+    .view-code-button {
+        padding-left: 363px;
+        padding-top: 0;
+    }
 }
 
-/* @media screen and (max-width: 412px), 
-       screen and (max-height: 914px) {
-        #cover-hoto-container.container{
-            height:50%;
-        }
+@media screen and (max-width: 414px) and (max-height: 915px) {
+    #cover-hoto-container.container {
+        height: 50%;
+    }
 
-        #container1-id.container2{
-            height:50%;
-        }
-        #cover-photo{
-            height:60%;
-        }
-        #contact-info{
-            height: 40%;
-        }
-} */
+    #container1-id.container2 {
+        height: 50%;
+    }
+
+    #cover-photo {
+        height: 60%;
+    }
+
+    #contact-info {
+        height: 40%;
+    }
+
+    .view-code-button {
+        padding-left: 201px;
+        padding-top: 34px;
+    }
+
+    #button-to-code {
+        width: 99px;
+        height: 53px;
+    }
+
+    #my-photo {
+        width: 188px;
+        height: 188px;
+    }
+
+    #sub-introduction {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #introduction {
+        margin-top: 40px;
+    }
+
+    .bar {
+        width: 15px;
+        height: 2px;
+        margin: 2px 0;
+    }
+
+    .hamburger-menu {
+        width: 52px;
+        height: 54px;
+
+    }
+
+    .dropdown-options {
+        width: 100px;
+        height: 90px;
+    }
+
+    .dropdown-options div {
+        width: 100px;
+        height: 45px;
+        background-color: rgb(255 255 255 / 72%);
+    }
+
+    .dropdown-options div a {
+        font-size: 12px;
+        color: #000000;
+    }
+}
+
+
+@media screen and (max-width: 375px) and (max-height: 740px) {
+    #container1-id.container2 {
+        width: 94%;
+        height: 60%;
+    }
+
+    #cover-hoto-container.container {
+        width: 103%;
+        height: 40%;
+
+    }
+
+    #cover-photo {
+        height: 40%;
+    }
+
+    #contact-info {
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 974px) and (max-height: 1368px) {
+    #container1-id.container2 {
+        width: 97%;
+        height: 60%;
+    }
+
+    #cover-hoto-container.container {
+        width: 100%;
+        height: 40%;
+
+    }
+
+    #cover-photo {
+        height: 50%;
+        width: 100%;
+    }
+
+    #contact-info {
+        height: 50%;
+    }
+}
