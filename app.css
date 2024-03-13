@@ -491,7 +491,7 @@ h1 {
     margin: 40px 0;
 }
 
-.projects-name{
+.projects-name {
     font-size: 50px;
 }
 
@@ -562,6 +562,7 @@ h1 {
     .projects-main-container {
         flex-direction: column-reverse;
     }
+
     .projects-main-container2 {
         flex-direction: column;
     }
@@ -573,17 +574,18 @@ h1 {
 
     .project-covers {
         width: 95%;
-        margin: 11px 50px 10px 30px;
+        margin: 11px 50px 10px 20px;
     }
 
-    .project-button.view-project-button{
-        padding: 50px 50px 10px 50px;
+    .project-button.view-project-button {
+        padding: 20px 50px 10px 20px;
     }
-    .side-text{
+
+    .side-text {
         width: 100%;
-        padding:2px 50px 0 50px;
+        padding: 2px 50px 0 20px;
     }
-    
+
 }
 
 @media (max-width:1311px) {
@@ -868,16 +870,17 @@ h1 {
     #button-to-code {
         width: 124px;
     }
-    .project-covers{
+
+    .project-covers {
         width: 90%;
         height: 300px;
     }
- 
-    .projects-name{
+
+    .projects-name {
         font-size: 30px;
     }
 
-    .view-project-button button{
+    .view-project-button button {
         width: 142px;
         height: 53px;
         font-size: 15px;
@@ -958,7 +961,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 414px) and (max-height: 915px) {
+@media screen and (max-width: 853px) and (max-height: 1280px) {
     #cover-hoto-container.container {
         height: 50%;
     }
@@ -976,13 +979,14 @@ h1 {
     }
 
     .view-code-button {
-        padding-left: 201px;
+        padding-left: 170px;
         padding-top: 34px;
     }
 
     #button-to-code {
-        width: 99px;
-        height: 53px;
+        width: 84px;
+        height: 34px;
+        font-size: 8px;
     }
 
     #my-photo {
@@ -1019,12 +1023,12 @@ h1 {
     .dropdown-options div {
         width: 100px;
         height: 45px;
-        background-color: rgb(255 255 255 / 72%);
+        background-color: rgba(0, 0, 0, 0.72);
     }
 
     .dropdown-options div a {
         font-size: 12px;
-        color: #000000;
+        color: #ffffff;
     }
 }
 
@@ -1047,6 +1051,9 @@ h1 {
 
     #contact-info {
         height: 60%;
+    }
+    .dropdown-options{
+        margin-left: 50px;
     }
 }
 
