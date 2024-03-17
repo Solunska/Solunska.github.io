@@ -124,7 +124,21 @@ h1 {
     align-items: center;
     border: 10px solid #ffffff6a;
 }
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 100%;
+}
 
+#resume-photo{
+    height: 20%;
+    width: 30%;
+    background-image: url("photos/profile.JPG");
+    background-size: cover;
+    justify-content: center;
+    align-self: center;
+}
 
 #cover-photo {
     width: 100%;
@@ -328,7 +342,7 @@ h1 {
 
 .my-carousel3 {
     width: 1264px;
-    height: 816px;
+    height: 806px;
     position: relative;
     top: 50%;
     left: 50%;
